@@ -1,4 +1,4 @@
-# HTML Basics - Exemplos para Iniciantes
+# HTML Basics - Exemplos para Iniciantes (feito por outro iniciante ¯\_(ツ)_/¯)
 
 Este projeto oferece exemplos práticos para ajudar iniciantes a aprender HTML. Aqui, você encontrará exemplos simples e explicações detalhadas para entender os conceitos básicos dessa linguagem de marcação.
 
