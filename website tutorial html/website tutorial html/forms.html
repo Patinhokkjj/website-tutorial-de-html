@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        @font-face {
+            font-family: persona5;
+            src: url(src/fontes/p5hatty.ttf);
+        }
+    </style>
+</head>
+
+<body style="background-image: url(src/imagens/jr7mld0grapy.png); background-repeat: no-repeat; background-size: cover; min-height: 100vh;
+    gap: 30px; ">
+    <h1 style="font-family: persona5; font-size: 300%; background-color: white; margin: auto;border-radius: 5px;">
+        Website
+        tutorial com linksㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ ㅤㅤㅤㅤㅤㅤ by: PatinhoKKJ ;D</h1>
+    <br>
+
+    <form action="action_page.php" method="post">
+        <div style="font-family: persona5; font-size: 200%; background-color: white; border-radius: 5px; width: 23%;">
+            <label for="fname">Primeiro nome</label>
+            <input type="text" id="fname" name="fname" placeholder="Seu nome..." required
+                style="height: 25px; width: 300px; border-radius: 5px; font-size: large;">
+        </div>
+        <br>
+
+        <div style="font-family: persona5; font-size: 200%; background-color: white; border-radius: 5px; width: 23%;">
+            <label for="lname">Ultimo nome</label>
+            <input type="text" id="lname" name="lname" placeholder="Seu ultimo nome..." required
+                style="height: 25px; width: 300px; border-radius: 5px; font-size: large;">
+        </div>
+        <br>
+        <div style="font-family: persona5; font-size: 200%; background-color: white; border-radius: 5px; width: 23%;">
+            <label for="password">Senha</label>
+            <input type="password" id="password" name="password" placeholder="Sua senha..." required maxlength="20"
+                style="height: 25px; width: 300px; border-radius: 5px; font-size: large;">
+        </div>
+        <br>
+        <div style="font-family: persona5; font-size: 200%; background-color: white; border-radius: 5px; width: 23%;">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="EmailFicticio@gmail.com" required
+                style="height: 25px; width: 300px; border-radius: 5px; font-size: large;">
+        </div>
+        <br>
+        <div style="font-family: persona5; font-size: 200%; background-color: white; border-radius: 5px; width: 23%;">
+            <label for="phone">Telefone</label>
+            <input type="tel" id="phone" name="phone" placeholder="(00) 00000-0000" required
+                style="height: 25px; width: 300px; border-radius: 5px; font-size: large;">
+        </div>
+        <br>
+        <div style="font-family: persona5; font-size: 200%; background-color: white; border-radius: 5px; width: 23%;">
+            <label for="bdate">Aniversario</label>
+            <input type="date" name="bdate" id="bdate" required
+                style="height: 25px; width: 300px; border-radius: 5px; font-size: large;">
+        </div>
+        <br>
+        <div style="font-family: persona5; font-size: 200%; background-color: white; border-radius: 5px; width: 23%;">
+            <label for="quantity">Quantidade</label>
+            <input type="number" name="quantity" id="quantity" required min="0" max="999" default="1"
+                style="height: 25px; width: 300px; border-radius: 5px;">
+        </div>
+        <br>
+        <div style="font-family: persona5; font-size: 200%; background-color: white; border-radius: 5px; width: 23%;">
+
+            <label for="title">Pronome de tratamento:</label>
+            <br>
+            <label for="Senhor">Senhor.</label>
+            <input type="radio" id="Senhor" name="title" value="Senhor" style="width: 25px; height: 20px;">
+            <label for="Senhora">Senhora.</label>
+            <input type="radio" id="Senhora" name="title" value="Senhora" style="width: 25px; height: 20px;">
+
+            <label for="Doutor(a)">Doutor(a).</label>
+            <input type="radio" id="Doutor(a)" name="title" value="Doutor(a)" style="width: 25px; height: 20px;">
+        </div>
+        <br>
+        <div style="font-family: persona5; font-size: 200%; background-color: white; border-radius: 5px; width: 23%;">
+            <label for="payment">Pagamento</label>
+            <select name="payment"
+                style="font-family: persona5; font-size: 100%; background-color: white; border-radius: 5px; width: 25%;">
+                <option value="Visa"
+                    style="font-family: persona5; font-size: 100%; background-color: white; border-radius: 5px; width: 25%;">
+                    Visa</option>
+                <option value="Mastercard"
+                    style="font-family: persona5; font-size: 100%; background-color: white; border-radius: 5px; width: 25%;">
+                    Mastercard</option>
+                <option value="Pix"
+                    style="font-family: persona5; font-size: 100%; background-color: white; border-radius: 5px; width: 25%;">
+                    Pix</option>
+            </select>
+        </div>
+
+        <br>
+        <div style="font-family: persona5; font-size: 200%; background-color: white; border-radius: 5px; width: 23%;">
+            <label for="teste de verificacao">Teste de verificacao</label>
+            <input type="checkbox" name="teste de verificacao" id="teste de verificacao" required
+                style="height: 20px; width: 100px; border-radius: 5px; ">
+        </div>
+        <br>
+        <div style="font-family: persona5; font-size: 200%; background-color: white; border-radius: 5px; width: 5%;">
+            <input type="reset" style="height: 25px; width: 100px; border-radius: 5px; font-size: large;">
+        </div>
+        <br>
+        <div style="font-family: persona5; font-size: 200%; background-color: white; border-radius: 5px; width: 5%;">
+            <input type="submit" style="height: 25px; width: 100px; border-radius: 5px; font-size: large;">
+        </div>
+    </form>
+
+</body>
+
+</html>
